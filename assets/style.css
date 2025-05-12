@@ -351,5 +351,10 @@ footer .copyrights a:hover {
 @media (max-width: 500px) {
     .products-grid {
         grid-template-columns: repeat(1, 1fr);
-    }    
+    }  
+    
+    footer .container {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
