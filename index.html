@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Leckerli+One&display=swap" rel="stylesheet">
+
     <title>Emitados Burger</title>
 </head>
 <body>
@@ -17,6 +20,9 @@
                     <li><a href="">Ínicio</a></li>
                     <li><a href="">Burgers</a></li>
                     <li><a href="">Contato</a></li>
+                    <li>
+                        <img src="/assets/bandeira.jpg" alt="bandeira" width="70px" style="border: 1px solid white;">
+                    </li>
                 </ul>
                 <div class="rightside">
                     <a href="" class="button">Fazer pedido</a>
@@ -35,7 +41,7 @@
     <section class="hero">
         <div class="container">
             <div class="leftside">
-                <h1>Diferente dos iguais.😋</h1>
+                <h1>Diferente dos iguais.</h1>
                 <p>A hamburgueria com os lanches mais saborosos da baixada, aqui é safistação garantida!</p>
                 <a href="" class="button">Fazer pedido</a>
             </div>
@@ -51,16 +57,11 @@
                 Pesquise o seu<br />hamburguer favorito
             </div>
             <div class="sides">
-                <div class="leftside">
-                    <input type="search" placeholder="Digite o nome do burger" name="" id="">
-                </div>
-                <div class="rightside">
-                    <select name="" id="">
-                        <option value="">Selecionar categoria</option>
-                        <option value="">Artesanais</option>
-                        <option value="">Burgers</option>
-                        <option value="">Vegetarianos</option>
-                    </select>
+                <div class="category-scroll">
+                    <button>Lanches</button>
+                    <button>Combos</button>
+                    <button>Acompanhamentos</button>
+                    <button>Bebidas</button>
                 </div>
             </div>
         </div>
@@ -68,19 +69,43 @@
 
     <main>
         <div class="container">
+                <p class="category-products">LANCHES</p>
             <div class="products-grid">
                 <a href="" class="products-item">
-                <div class="warning">Promoção</div>
                     <div class="photo">
                         <img src="/assets/burgers/burger1.png" alt="">                        
-                </div>
+                </div>                
+                <div class="info">
+                            <div class="product-category">MUMM-RÁ SALADA</div>
+                            <div class="product-name">Texas Burger</div>
+                            <div class="product-price">25,50</div>
+                        </div>
+                </a>
+                <a href="" class="products-item">
+                        <div class="photo">
+                            <img src="/assets/burgers/burger2.png" alt="">                        
+                    </div>
+                    <div class="info">
+                                <div class="product-category">ANÚBIS CHEDDAR MELT
+</div>
+                                <div class="product-name">Texas Burger</div>
+                                <div class="product-price">25,50</div>
+                            </div>
+                </a>        
+            </div>
+            <div class="container">
+                <p class="category-products">COMBOS</p>
+            <div class="products-grid">
+                <a href="" class="products-item">
+                    <div class="photo">
+                        <img src="/assets/burgers/burger1.png" alt="">                        
+                </div>              
                 <div class="info">
                             <div class="product-category">Tradicional</div>
                             <div class="product-name">Texas Burger</div>
                             <div class="product-price">25,50</div>
                         </div>
                 </a>
-
                 <a href="" class="products-item">
                         <div class="photo">
                             <img src="/assets/burgers/burger2.png" alt="">                        
@@ -90,51 +115,55 @@
                                 <div class="product-name">Texas Burger</div>
                                 <div class="product-price">25,50</div>
                             </div>
+                </a>        
+            </div>
+            <div class="container">
+                <p class="category-products">ACOMPANHAMENTOS</p>
+            <div class="products-grid">
+                <a href="" class="products-item">
+                    <div class="photo">
+                        <img src="/assets/burgers/burger1.png" alt="">                        
+                </div>              
+                <div class="info">
+                            <div class="product-category">Tradicional</div>
+                            <div class="product-name">Texas Burger</div>
+                            <div class="product-price">25,50</div>
+                        </div>
                 </a>
-
                 <a href="" class="products-item">
                         <div class="photo">
-                            <img src="/assets/burgers/burger3.png" alt="">                        
+                            <img src="/assets/burgers/burger2.png" alt="">                        
                     </div>
                     <div class="info">
                                 <div class="product-category">Tradicional</div>
                                 <div class="product-name">Texas Burger</div>
                                 <div class="product-price">25,50</div>
                             </div>
+                </a>        
+            </div>
+            <div class="container">
+                <p class="category-products">BEBIDAS</p>
+            <div class="products-grid">
+                <a href="" class="products-item">
+                    <div class="photo">
+                        <img src="/assets/burgers/burger1.png" alt="">                        
+                </div>              
+                <div class="info">
+                            <div class="product-category">Tradicional</div>
+                            <div class="product-name">Texas Burger</div>
+                            <div class="product-price">25,50</div>
+                        </div>
                 </a>
-
                 <a href="" class="products-item">
                         <div class="photo">
-                            <img src="/assets/burgers/burger4.png" alt="">                        
+                            <img src="/assets/burgers/burger2.png" alt="">                        
                     </div>
                     <div class="info">
                                 <div class="product-category">Tradicional</div>
                                 <div class="product-name">Texas Burger</div>
                                 <div class="product-price">25,50</div>
                             </div>
-                </a>
-
-                <a href="" class="products-item">
-                        <div class="photo">
-                            <img src="/assets/burgers/burger3.png" alt="">                        
-                    </div>
-                    <div class="info">
-                                <div class="product-category">Tradicional</div>
-                                <div class="product-name">Texas Burger</div>
-                                <div class="product-price">25,50</div>
-                            </div>
-                </a>
-
-                <a href="" class="products-item">
-                        <div class="photo">
-                            <img src="/assets/burgers/burger4.png" alt="">                        
-                    </div>
-                    <div class="info">
-                                <div class="product-category">Tradicional</div>
-                                <div class="product-name">Texas Burger</div>
-                                <div class="product-price">25,50</div>
-                            </div>
-                </a>            
+                </a>        
             </div>
         </div>
     </main>
@@ -143,8 +172,16 @@
             <div class="logo">
                 <a href=""><span>•</span> Emirados Burger <span>•</span></a>
             </div>
-        <div class="copyrights">Criado por <a href="https://www.linkedin.com/in/rafael-felix-dev/">Rafael Felix</a>.</div>
-        </div>
+            
+            <div class="social-icons">
+                <a href="https://wa.me/+5513991671827" target="_blank" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp fa-2x" style="color: #fff;"></i>
+                </a>
+                <a href="https://www.instagram.com/emiradosburger/" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram fa-2x" style="color: #fff;"></i>
+                </a>
+            </div>
+            
     </footer>
 
 </body>
