@@ -25,12 +25,12 @@ body {
 .logo a {
     font-family: 'Calistoga';
     font-size: 38px;
-    color: #fff;
+    color: #FFD700;
     text-decoration: none;
 }
 
 .logo a span {
-    color: #FE6A0F;
+    color: red;
 }
 
 /* HEADER*/
@@ -102,7 +102,6 @@ header .menu-icon div {
     background-color: #fff;
 }
 
-
 /*HERO*/
 .hero .container {
     display: flex;
@@ -127,10 +126,11 @@ header .menu-icon div {
 }
 
 .hero h1 {
-    font-family: 'Calistoga';
+    font-family: "Leckerli One", cursive;
     font-size: 60px;
     line-height: 62px;
     margin-top: 50px;
+    color: #FFD700;
 }
 
 .hero p {
@@ -156,6 +156,37 @@ header .menu-icon div {
 }
 
 /*SEARCH*/
+
+.category-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 10px 0;
+  scrollbar-width: none; /* Firefox */
+}
+
+.category-scroll::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.category-scroll button {
+  flex: 0 0 auto;
+  background-color: #2b2b2b;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.3s;
+}
+
+.category-scroll button:hover {
+  background-color: #FE6A0F;
+}
+
+
 .search {
     background-color: #1f1f1f;
     padding: 80px 0;
@@ -200,6 +231,12 @@ header .menu-icon div {
 }
 
 /* P`RODUCTS*/
+
+.category-products {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
 
 .products-grid {
     display: grid;
@@ -293,6 +330,18 @@ footer .copyrights a {
 
 footer .copyrights a:hover {
     text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.social-icons a:hover i {
+  color: #FE6A0F; /* cor laranja igual ao seu tema */
+  transition: color 0.3s ease;
 }
 
 
