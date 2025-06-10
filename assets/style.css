@@ -127,10 +127,11 @@ header .menu-icon div {
 
 .hero h1 {
     font-family: "Leckerli One", cursive;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 62px;
     margin-top: 50px;
-    color: #FFD700;
+    color: #FFF;    
+    
 }
 
 .hero p {
@@ -340,7 +341,7 @@ footer .copyrights a:hover {
 }
 
 .social-icons a:hover i {
-  color: #FE6A0F; /* cor laranja igual ao seu tema */
+  color: #FE6A0F;
   transition: color 0.3s ease;
 }
 
