@@ -288,13 +288,14 @@ header .menu-icon div {
 
 .products-item .product-category {
     color: #FFF;
+    font-style: italic;
     font-size: 18px;
     font-weight: 500;
 }
 
 .products-item .product-name {
     font-family: 'Calistoga';
-    font-size: 32px;
+    font-size: 28px;
     color: #FFF;
     margin: 10px 0;
 }
