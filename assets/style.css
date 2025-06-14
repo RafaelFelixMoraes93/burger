@@ -346,6 +346,12 @@ footer .copyrights a:hover {
   transition: color 0.3s ease;
 }
 
+@media (max-width: 1024px) {
+    .leftside h1 {
+        font-size: 35px;
+    }
+}
+
 @media (max-width: 820px) {
     header nav {
         display: none;
