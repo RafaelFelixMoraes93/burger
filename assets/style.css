@@ -356,7 +356,12 @@ footer .copyrights a:hover {
     .leftside h1 {
         font-size: 30px;
     }
+    .hero .rightside img {
+        height: auto;
+        width: 349px;
+    }
 }
+
 
 @media (max-width: 820px) {
     header nav {
