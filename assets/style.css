@@ -360,6 +360,9 @@ footer .copyrights a:hover {
         height: auto;
         width: 349px;
     }
+    .logo a {
+        font-size: 28px;
+    }
 }
 
 
